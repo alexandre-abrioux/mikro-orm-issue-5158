@@ -21,7 +21,7 @@ afterAll(async () => {
 });
 
 it("should update json properties with assign()", async () => {
-  // initialing user
+  // initialize user
   const user1 = new User();
   user1.methods = { method1: "1", method2: "1" };
   const em1 = orm.em.fork();
